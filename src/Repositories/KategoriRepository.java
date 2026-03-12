@@ -12,7 +12,6 @@ public class KategoriRepository {
 
     public List<Kategori> tumKategorileriGetir(){
         List<Kategori> kategoriListesi= new ArrayList<>();
-
         try{
             Connection connection=Core.DatabaseConnection.getConnection();
             Statement statement=connection.createStatement();
